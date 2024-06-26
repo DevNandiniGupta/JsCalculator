@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3b4664;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 45px;
+
+}
+
+/* .heading {
+  font-weight: bold;
+  color: white;
+  position: relative;
+  left: -231px;
+  margin-top: -24px;
+} */
+
+.heading {
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: -27px;
+    margin-top: -24px;
+    margin-bottom: 15px;
+}
+
+.input {
+  height: 80px;
+  width: 550px;
+  background-color: #181f32;
+  font-size: 40px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.main {
+  height: 500px;
+  width: 550px;
+  background-color: #252d44;
+  color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.row-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  /* gap: -4px; */
+  margin-top: 31px;
+  margin-left: 21px;
+}
+
+.btn {
+  height: 70px;
+  width: 100px;
+  background-color: #eae3db;
+  margin-bottom: 24px;
+  color: #3b4664;
+  font-size: 38px;
+  font-weight: bold;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 8px;
+  cursor: pointer;
+}
+
+#delete {
+  background-color: #647299;
+  color: white;
+  text-align: center;
+  font-size: 27px;
+}
+#reset {
+  width: 230px;
+  margin-right: 40px;
+  background-color: #647299;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 5px;
+  padding: -4px;
+}
+
+#equals {
+  width: 230px;
+  background-color: #d13f30;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 5px;
+  text-align: center;
+  margin-left: 139px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    height: 50%;
+    text-align: center;
+  }
+  .input {
+    height: 50px;
+
+    width: 368px;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .main {
+    height: 100%;
+    width: 400px;
+  }
+  .row-buttons {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
+    margin-top: 31px;
+    margin-left: 21px;
+  }
+  #reset {
+    width: 96px;
+    margin-right: 40px;
+    border: none;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: -4px;
+  }
+
+  #equals {
+    width: 96px;
+    background-color: #d13f30;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    border: none;
+    margin-left: -10px;
+  }
+
+
+  h1 {
+    margin-left: 3rem;
+    margin-top: -19px;
+}
+
+.btn {
+    height: 66px;
+    width: 96px;
+    
+    margin-bottom: 15px;
+
+    font-size: 27px;
+
+}
+  
+}
